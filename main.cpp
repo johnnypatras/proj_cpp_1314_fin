@@ -18,7 +18,7 @@ using namespace std;
 
 int main(int argc, char** argv) 
 {
-	srand(time(NULL));
+        srand(time(NULL));
 	int a,i;
 	string comp;
 

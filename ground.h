@@ -22,8 +22,13 @@ public:
 	float getpalladium(void);
 	float getplatinum(void);
 	float getdanger(void);
+        float setiridium(void);
+	float setpalladium(void);
+	float setplatinum(void);
+	float setdanger(void);
 
-	float iridium;
+private:
+    	float iridium;
 	float palladium;
 	float platinum;
 	float danger;
