@@ -5,11 +5,11 @@
 
 using namespace std;
 
-class rescue : public vehicle
+class Rescue : public Vehicle
 {
 public:
-	rescue(int =10,bool  =true ,float =0.4);
-	~rescue(void);
+	Rescue(int =10,bool  =true ,float =0.4);
+	~Rescue(void);
 
 	//set methods
 	//void setrescued(void);

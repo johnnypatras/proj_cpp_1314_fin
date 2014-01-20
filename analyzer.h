@@ -5,10 +5,10 @@
 
 using namespace std;
 
-class analyzer : public vehicle
+class Analyzer : public Vehicle
 {
 public:
-	analyzer(int =30 , bool =false , float =0.4);
+	Analyzer(int =30 , bool =false , float =0.4);
 	
 	//Xeriazomaste methodo i opoia na ipologizei tin kaliteri 
 	//analogia kindinou periektikotita, episis preperi na prosthesoume

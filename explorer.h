@@ -5,11 +5,11 @@
 
 using namespace std;
 
-class explorer : public vehicle
+class Explorer : public Vehicle
 {
 public:
-	explorer(int =10,bool  =true ,float =0.4);
-	~explorer(void);
+	Explorer(int =10,bool  =true ,float =0.4);
+	~Explorer(void);
 
 	//set methods
 

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-analyzer::analyzer(int s, bool st, float re):vehicle(s, st, re)
+Analyzer::Analyzer(int s, bool st, float re):Vehicle(s, st, re)
 {
 
 }

@@ -1,12 +1,12 @@
 #ifndef vehicle_H
 #define vehicle_H
 
-class vehicle
+class Vehicle
 {
 public:
-	vehicle(int , bool, float);
-	vehicle(void);
-	~vehicle(void);
+	Vehicle(int , bool, float);
+	Vehicle(void);
+	~Vehicle(void);
 	
 
 	//set methods

@@ -7,12 +7,12 @@
 
 using namespace std;
 
-ground::ground(void)
+Ground::Ground(void)
 {
     
 }
 
-ground::~ground(void)
+Ground::~Ground(void)
 {
     
 }
@@ -46,22 +46,22 @@ void ground::setdanger()
 //}
 
 
-float ground::getiridium()
+float Ground::getiridium()
 {
 	return iridium;
 }
 
-float ground::getpalladium()
+float Ground::getpalladium()
 {
 	return palladium;
 }
 
-float ground::getplatinum()
+float Ground::getplatinum()
 {
 	return platinum;
 }
 
-float ground::getdanger()
+float Ground::getdanger()
 {
     return danger;
 }

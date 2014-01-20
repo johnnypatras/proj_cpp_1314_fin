@@ -3,11 +3,11 @@
 
 using namespace std;
 
-explorer::explorer(int s, bool st, float re):vehicle(s, st, re)
+Explorer::Explorer(int s, bool st, float re):Vehicle(s, st, re)
 {
 }
 
-explorer::~explorer(void)
+Explorer::~Explorer(void)
 {
 }
 

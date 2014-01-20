@@ -6,29 +6,29 @@
 using namespace std;
 
 
-vehicle::vehicle(int s, bool st, float re):speed(s), state(st), resistance(re)
+Vehicle::Vehicle(int s, bool st, float re):speed(s), state(st), resistance(re)
 {
 }
 
-vehicle::vehicle(void){}
+Vehicle::Vehicle(void){}
 
-vehicle::~vehicle()
+Vehicle::~Vehicle()
 {
     
 }
 
 
 //set methods
-void vehicle::setspeed(int s)
+void Vehicle::setspeed(int s)
 {speed = s;}
 
-void vehicle::setstate(bool st)
+void Vehicle::setstate(bool st)
 {state = st;}
 
-void vehicle::setresistance(float re)
+void Vehicle::setresistance(float re)
 {resistance = re;}
 
-void vehicle::setmovement(bool init)
+void Vehicle::setmovement(bool init)
 {
 	if(init = true)
 		movement = 0;
@@ -36,27 +36,27 @@ void vehicle::setmovement(bool init)
 		movement++;
 }
 
-  void vehicle::setXY(int Xin,int Yin){ 
+  void Vehicle::setXY(int Xin,int Yin){ 
      X=Xin;
      Y=Yin;     
   }
 
-  void vehicle::setnotrepaired(void)
+  void Vehicle::setnotrepaired(void)
   {
 	if(notrepaired>15)
-		this->~vehicle();
+		this->~Vehicle();
 
 	  notrepaired++;}
 
 //get methods
-int vehicle::getspeed()
+int Vehicle::getspeed()
 {return speed;}
 
-bool vehicle::getstate()
+bool Vehicle::getstate()
 {return state;}
 
-float vehicle::getresistance()
+float Vehicle::getresistance()
 {return resistance;}
 
-int vehicle::getmovement()
+int Vehicle::getmovement()
 {return movement;}

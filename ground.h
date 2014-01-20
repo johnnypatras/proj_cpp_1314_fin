@@ -6,13 +6,13 @@
 
 using namespace std;
 
-class ground
+class Ground
 {
 	//friend ostream &operator<<(ostream &, const ground &);
 
 public:
-	ground(void);
-	~ground(void);
+	Ground(void);
+	~Ground(void);
 
 	//ground &operator=(const ground &rhs);	
 	//void setcomposition(void);
