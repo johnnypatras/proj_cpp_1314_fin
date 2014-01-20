@@ -26,28 +26,28 @@ int main(int argc, char** argv)
 	cout << base_1->getcapacity() << "\n";
 
 
-	map<int, ground> xartisedafous;
-	ground ground_1;
+	map<int, Ground> xartisedafous;
+	Ground ground_1;
 
-	vector<vehicle*> oximata_analyzer;
-        vector<vehicle*> oximata_explorer;
-        vector<vehicle*> oximata_rescue;
+	vector<Vehicle*> oximata_analyzer;
+        vector<Vehicle*> oximata_explorer;
+        vector<Vehicle*> oximata_rescue;
 
         for(i=1;i<=5;i++)
         {
-            analyzer* oxima_analyzer = new analyzer();
+            Analyzer* oxima_analyzer = new Analyzer();
             oximata_analyzer.push_back(oxima_analyzer);
         }
         
         for(i=1;i<=5;i++)
         {
-            rescue* oxima_rescue = new rescue();
+            Rescue* oxima_rescue = new Rescue();
             oximata_rescue.push_back(oxima_rescue);
         }
         
         for(i=1;i<=5;i++)
         {
-            explorer* oxima_explorer = new explorer();
+            Explorer* oxima_explorer = new Explorer();
             oximata_explorer.push_back(oxima_explorer);
         }
         
