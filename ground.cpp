@@ -45,6 +45,10 @@ void ground::setdanger()
 	cout << danger << "\n";*/
 //}
 
+//void setiridium(void);
+//{
+//    iridium = ir;
+//}
 
 float Ground::getiridium()
 {
