@@ -8,7 +8,7 @@ using namespace std;
 class Explorer : public Vehicle
 {
 public:
-	Explorer(int =10,bool  =true ,float =0.4);
+	Explorer(int =10,bool  =true ,float =0.4, int =0, int =12);
 	~Explorer(void);
 
 	//set methods
@@ -21,6 +21,8 @@ public:
 	//mia methodo elegxou, mia methodo kai mia methodo pou na dinei stin vasi pooia
 	//tiles einai epikindina
 
+        
+        void check(void);
 };
 
 #endif

@@ -8,7 +8,7 @@ using namespace std;
 class Rescue : public Vehicle
 {
 public:
-	Rescue(int =10,bool  =true ,float =0.4);
+	Rescue(int =10,bool  =true ,float =0.4, int =0, int =12);
 	~Rescue(void);
 
 	//set methods

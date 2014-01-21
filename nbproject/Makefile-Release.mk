@@ -62,11 +62,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/projectcpp20132014fin.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proj_cpp_1314_fin.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/projectcpp20132014fin.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proj_cpp_1314_fin.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/projectcpp20132014fin ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proj_cpp_1314_fin ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/analyzer.o: analyzer.cpp 
 	${MKDIR} -p ${OBJECTDIR}
@@ -109,7 +109,7 @@ ${OBJECTDIR}/vehicle.o: vehicle.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/projectcpp20132014fin.exe
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proj_cpp_1314_fin.exe
 
 # Subprojects
 .clean-subprojects:

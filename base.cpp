@@ -26,3 +26,8 @@ void Base::setcapacity(int cap)
 //get methods
 int Base::getcapacity()
 {return capacity;}
+
+int Base::gettotal(void)
+{
+    return platinum+palladium+iridium;
+}

@@ -1,3 +1,10 @@
+#include <iostream>
+#include <time.h>
+#include <utility>
+#include <map>
+#include <vector>
+#include <algorithm>
+
 #include "vehicle.h"
 #include "analyzer.h"
 
@@ -6,11 +13,10 @@
 using namespace std;
 
 
-Vehicle::Vehicle(int s, bool st, float re):speed(s), state(st), resistance(re)
+Vehicle::Vehicle(int s, bool st, float re, int Xin, int Yin):speed(s), state(st), resistance(re), X(Xin), Y(Yin)
 {
 }
 
-Vehicle::Vehicle(void){}
 
 Vehicle::~Vehicle()
 {
@@ -60,3 +66,13 @@ float Vehicle::getresistance()
 
 int Vehicle::getmovement()
 {return movement;}
+
+int Vehicle::getX()
+{return X;}
+
+int Vehicle::getY()
+{return Y;}
+
+//general methods
+void move()
+{}

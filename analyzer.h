@@ -8,7 +8,7 @@ using namespace std;
 class Analyzer : public Vehicle
 {
 public:
-	Analyzer(int =30 , bool =false , float =0.4);
+	Analyzer(int =30 , bool =false , float =0.4, int =0, int =12);
 	
 	//Xeriazomaste methodo i opoia na ipologizei tin kaliteri 
 	//analogia kindinou periektikotita, episis preperi na prosthesoume

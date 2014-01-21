@@ -15,7 +15,7 @@ public:
 
 	//get methods
 	int getcapacity(void);
-
+        int gettotal(void);
 private:
 	int palladium, iridium, platinum;
 	bool palladiumfull, iridiumfull, platinumfull;
